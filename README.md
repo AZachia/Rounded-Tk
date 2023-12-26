@@ -35,5 +35,18 @@ root.mainloop()
 ```
 
 
-In fact, RoundedWindow is just a tk.Canvas widget, so it doesn't have properties like ```root.title()``` or others, However, you can use  ```root.root.title()```.
+In fact, RoundedWindow is just a tk.Canvas widget, sso it doesn't have properties like ```root.title()``` or others, However, you can use  ```root.root.title()```.
+
+
+the same example but with tkinter:
+
+```python
+from RoundedTk import *
+import tkinter as tk
+
+root = RoundedWindow(tk.Tk(), percent=10)
+
+
+root.mainloop()
+```
         
