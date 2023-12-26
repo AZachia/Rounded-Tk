@@ -2,7 +2,7 @@
 
 Rounded Tk is a Python library that allows you to easily create rounded windows and widgets with Python Tkinter.
 
-<p align="center">
+<p align="center" border-radius="10px">
   <img src="images/RoundedTk.png" alt="Rounded Tk Logo">
 </p>
 
